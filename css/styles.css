@@ -11,13 +11,25 @@ body {
 
 /* Title Section */
 
-section#title {
-    background-color: #ff4c68;
+#title {
     text-align: left;
 }
 
+/* Containers */
+
 .container-fluid {
-    padding: 3% 12% 7%;
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -56,10 +68,8 @@ section#title {
     transform: rotate(25deg);
 }
 
-section#features {
+#features {
     position: relative;
-    background-color: white;
-    padding: 7% 15%;
 }
 
 p {
@@ -67,16 +77,16 @@ p {
     padding: 0% 5% 5% 5%;
 }
 
-h3 {
-    margin-top: 15px;
-    font-size: 1.5rem;
-}
-
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
 }
 
 .big-heading {
@@ -102,7 +112,6 @@ section#features span:hover {
 
 section#testimonials {
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -149,23 +158,11 @@ section#pricing {
 
 /* Call-to-Action Section */
 
-#cta {
-    background-color: #ff4c68;
-    padding: 7% 15%;
-    color: white;
-}
-
-#cta h3 {
+section#cta h3 {
     font-size: 36px;
 }
 
 /* Footer Section */
-
-#footer {
-    background-color: #fff;
-    padding: 4% 15%;
-    text-align: center;
-}
 
 #footer span {
     padding: 20px 10px;
